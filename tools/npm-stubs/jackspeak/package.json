@@ -1,0 +1,10 @@
+{
+  "name": "jackspeak",
+  "version": "2.3.6",
+  "description": "Stub module for jackspeak@2.3.6",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

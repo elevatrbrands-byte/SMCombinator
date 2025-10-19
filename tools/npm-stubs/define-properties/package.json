@@ -1,0 +1,10 @@
+{
+  "name": "define-properties",
+  "version": "1.2.1",
+  "description": "Stub module for define-properties@1.2.1",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

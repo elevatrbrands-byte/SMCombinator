@@ -1,0 +1,10 @@
+{
+  "name": "locate-path",
+  "version": "6.0.0",
+  "description": "Stub module for locate-path@6.0.0",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

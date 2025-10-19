@@ -1,0 +1,10 @@
+{
+  "name": "prop-types",
+  "version": "15.8.1",
+  "description": "Stub module for prop-types@15.8.1",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

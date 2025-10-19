@@ -1,0 +1,10 @@
+{
+  "name": "find-up",
+  "version": "5.0.0",
+  "description": "Stub module for find-up@5.0.0",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

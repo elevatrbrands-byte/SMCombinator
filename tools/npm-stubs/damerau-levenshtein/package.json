@@ -1,0 +1,10 @@
+{
+  "name": "damerau-levenshtein",
+  "version": "1.0.8",
+  "description": "Stub module for damerau-levenshtein@1.0.8",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

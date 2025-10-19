@@ -1,0 +1,10 @@
+{
+  "name": "balanced-match",
+  "version": "1.0.2",
+  "description": "Stub module for balanced-match@1.0.2",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

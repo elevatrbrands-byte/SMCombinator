@@ -1,0 +1,10 @@
+{
+  "name": "shebang-regex",
+  "version": "3.0.0",
+  "description": "Stub module for shebang-regex@3.0.0",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

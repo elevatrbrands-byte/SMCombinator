@@ -1,0 +1,10 @@
+{
+  "name": "is-core-module",
+  "version": "2.16.1",
+  "description": "Stub module for is-core-module@2.16.1",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

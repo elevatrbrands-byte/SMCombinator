@@ -1,0 +1,10 @@
+{
+  "name": "espree",
+  "version": "9.6.1",
+  "description": "Stub module for espree@9.6.1",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

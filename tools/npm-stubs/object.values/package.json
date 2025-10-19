@@ -1,0 +1,10 @@
+{
+  "name": "object.values",
+  "version": "1.2.1",
+  "description": "Stub module for object.values@1.2.1",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

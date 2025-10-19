@@ -1,0 +1,10 @@
+{
+  "name": "string.prototype.repeat",
+  "version": "1.0.0",
+  "description": "Stub module for string.prototype.repeat@1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

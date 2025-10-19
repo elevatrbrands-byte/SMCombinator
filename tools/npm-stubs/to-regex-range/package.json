@@ -1,0 +1,10 @@
+{
+  "name": "to-regex-range",
+  "version": "5.0.1",
+  "description": "Stub module for to-regex-range@5.0.1",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

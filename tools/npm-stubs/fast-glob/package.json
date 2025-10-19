@@ -1,0 +1,10 @@
+{
+  "name": "fast-glob",
+  "version": "3.3.3",
+  "description": "Stub module for fast-glob@3.3.3",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

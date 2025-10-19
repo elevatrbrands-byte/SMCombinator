@@ -1,0 +1,10 @@
+{
+  "name": "typescript",
+  "version": "5.3.3",
+  "description": "Stub module for typescript@5.3.3",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

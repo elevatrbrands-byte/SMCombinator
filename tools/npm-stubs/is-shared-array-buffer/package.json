@@ -1,0 +1,10 @@
+{
+  "name": "is-shared-array-buffer",
+  "version": "1.0.4",
+  "description": "Stub module for is-shared-array-buffer@1.0.4",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

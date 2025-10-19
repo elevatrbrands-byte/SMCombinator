@@ -1,0 +1,10 @@
+{
+  "name": "has-property-descriptors",
+  "version": "1.0.2",
+  "description": "Stub module for has-property-descriptors@1.0.2",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "typed-array-length",
+  "version": "1.0.7",
+  "description": "Stub module for typed-array-length@1.0.7",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

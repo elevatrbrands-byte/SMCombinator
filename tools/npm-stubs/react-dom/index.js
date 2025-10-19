@@ -1,0 +1,2 @@
+export default {};
+export const version = '18.2.0';

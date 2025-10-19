@@ -1,0 +1,10 @@
+{
+  "name": "has-proto",
+  "version": "1.2.0",
+  "description": "Stub module for has-proto@1.2.0",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

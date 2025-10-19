@@ -1,0 +1,10 @@
+{
+  "name": "axe-core",
+  "version": "4.11.0",
+  "description": "Stub module for axe-core@4.11.0",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

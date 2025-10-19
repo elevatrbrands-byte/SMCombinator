@@ -1,0 +1,10 @@
+{
+  "name": "caniuse-lite",
+  "version": "1.0.30001751",
+  "description": "Stub module for caniuse-lite@1.0.30001751",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

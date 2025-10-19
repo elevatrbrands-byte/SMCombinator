@@ -1,0 +1,10 @@
+{
+  "name": "side-channel-weakmap",
+  "version": "1.0.2",
+  "description": "Stub module for side-channel-weakmap@1.0.2",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}
