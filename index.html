@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>D Pitch — Launch a startup. Learn by doing.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      window.tailwind = window.tailwind || {};
+      window.tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              ink: "#37383C",
+              offwhite: "#F7F8FA",
+              electric: "#4E95FF",
+              jet: "#0B0C10",
+              success: "#14B8A6"
+            },
+            boxShadow: {
+              glow: "0 20px 45px -20px rgba(78,149,255,0.6)",
+              soft: "0 25px 45px -30px rgba(7,15,24,0.2)"
+            }
+          }
+        }
+      };
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body class="bg-offwhite font-[Inter] text-jet">
+    <header class="site-header">
+      <nav class="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
+        <a href="index.html" class="text-lg font-semibold tracking-tight"><span class="text-electric">D</span> Pitch</a>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="mobile-menu">
+          <span class="sr-only">Toggle navigation</span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="hidden items-center gap-4 lg:flex">
+          <a class="nav-link" href="index.html" aria-current="page">Home</a>
+          <a class="nav-link" href="chapters.html">Chapters</a>
+          <a class="nav-link" href="competition.html">Competition</a>
+          <a class="nav-link" href="speakers-mentors.html">Speakers & Mentors</a>
+          <a class="nav-link" href="schools-partners.html">Schools & Partners</a>
+          <a class="nav-link" href="apply.html">Apply</a>
+          <a class="nav-link" href="faq.html">FAQ</a>
+          <a class="nav-link" href="about.html">About</a>
+          <a class="nav-link" href="press-media.html">Press & Media</a>
+          <a class="nav-link" href="contact.html">Contact</a>
+          <a href="apply.html" class="rounded-full bg-electric px-4 py-2 text-sm font-semibold text-offwhite shadow-glow transition-transform duration-200 hover:-translate-y-0.5 hover:shadow-lg">Apply now</a>
+        </div>
+      </nav>
+      <div id="mobile-menu" class="mobile-menu">
+        <div class="flex flex-col gap-2">
+          <a class="mobile-nav-link" href="index.html" aria-current="page">Home</a>
+          <a class="mobile-nav-link" href="chapters.html">Chapters</a>
+          <a class="mobile-nav-link" href="competition.html">Competition</a>
+          <a class="mobile-nav-link" href="speakers-mentors.html">Speakers & Mentors</a>
+          <a class="mobile-nav-link" href="schools-partners.html">Schools & Partners</a>
+          <a class="mobile-nav-link" href="apply.html">Apply</a>
+          <a class="mobile-nav-link" href="faq.html">FAQ</a>
+          <a class="mobile-nav-link" href="about.html">About</a>
+          <a class="mobile-nav-link" href="press-media.html">Press & Media</a>
+          <a class="mobile-nav-link" href="contact.html">Contact</a>
+          <a href="apply.html" class="rounded-full bg-electric px-4 py-2 text-center text-sm font-semibold text-offwhite">Apply now</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="overflow-hidden">
+      <section class="hero" data-hero>
+        <div class="hero__glow" aria-hidden="true"></div>
+        <div class="mx-auto flex max-w-6xl flex-col items-start gap-10 px-6 pb-24 pt-24">
+          <div class="space-y-6">
+            <h1 class="text-5xl font-semibold leading-[0.95] tracking-tight text-jet sm:text-6xl md:text-[4.5rem]">
+              <span class="block">Launch a startup.</span>
+              <span class="block">Learn by doing.</span>
+              <span class="block">Pitch Dallas in Spring 2026.</span>
+            </h1>
+            <p class="max-w-2xl text-lg text-ink/80">
+              D Pitch is a citywide program that turns DFW high-schoolers into founders—step by step, from zero to investible.
+            </p>
+          </div>
+          <div class="flex flex-wrap items-center gap-4">
+            <a href="apply.html" class="cta-primary">Apply now</a>
+            <a href="chapters.html#start" class="cta-secondary">Start a chapter at your school</a>
+          </div>
+          <div class="flex flex-wrap items-center gap-6 text-xs uppercase tracking-[0.2em] text-ink/50">
+            <span>Partner schools</span>
+            <span>•</span>
+            <span>Sponsors</span>
+            <span>•</span>
+            <span>DFW innovation hub</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="value">
+        <div class="section__inner">
+          <div class="section__header">
+            <h2 class="section__title">What you get</h2>
+            <p class="section__subtitle">Three pillars that keep you moving from day one.</p>
+          </div>
+          <div class="grid gap-6 md:grid-cols-3">
+            <article class="card">
+              <h3 class="card__title">Step-by-Step Playbook</h3>
+              <p class="card__body">Weekly modules guide you from problem to prototype to pitch.</p>
+            </article>
+            <article class="card">
+              <h3 class="card__title">Mentors on Call</h3>
+              <p class="card__body">Founders and operators run office hours and review your progress.</p>
+            </article>
+            <article class="card">
+              <h3 class="card__title">Stage to Shine</h3>
+              <p class="card__body">Qualify for the Spring 2026 Finals and pitch to real judges.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--surface">
+        <div class="section__inner">
+          <div class="section__header">
+            <h2 class="section__title">How it works</h2>
+            <p class="section__subtitle">Four phases from your first meeting to the finals.</p>
+          </div>
+          <div class="stepper" data-stepper>
+            <div class="stepper__item">
+              <span class="stepper__number">1</span>
+              <h3 class="stepper__title">Join a Chapter</h3>
+              <p class="stepper__text">Start one at your school or join an existing chapter across DFW.</p>
+            </div>
+            <div class="stepper__item">
+              <span class="stepper__number">2</span>
+              <h3 class="stepper__title">Follow the Track</h3>
+              <p class="stepper__text">Weekly modules + checkpoints → real customer discovery.</p>
+            </div>
+            <div class="stepper__item">
+              <span class="stepper__number">3</span>
+              <h3 class="stepper__title">Level Up</h3>
+              <p class="stepper__text">Speaker days, feedback rounds, and pitch practice with mentors.</p>
+            </div>
+            <div class="stepper__item">
+              <span class="stepper__number">4</span>
+              <h3 class="stepper__title">Compete</h3>
+              <p class="stepper__text">Winter qualifiers → Spring 2026 finals. Scholarships, mentorship, prizes.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="marquee" aria-label="Startup skills marquee">
+        <div class="marquee__track" data-marquee>
+          <span>Customer Discovery</span>
+          <span>•</span>
+          <span>MVP</span>
+          <span>•</span>
+          <span>Unit Economics</span>
+          <span>•</span>
+          <span>Go-to-Market</span>
+          <span>•</span>
+          <span>Pitch</span>
+        </div>
+      </section>
+
+      <section class="section" id="speakers">
+        <div class="section__inner">
+          <div class="section__header">
+            <h2 class="section__title">Learn from the pros</h2>
+            <p class="section__subtitle">
+              Monthly Speaker Days bring seasoned operators to Dallas to share playbooks and roast your slides—in the best way.
+            </p>
+            <a href="speakers-mentors.html" class="inline-flex items-center gap-2 text-sm font-semibold text-electric">See upcoming speakers<span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--timeline" id="timeline">
+        <div class="section__inner">
+          <div class="section__header sticky top-24">
+            <h2 class="section__title">Program timeline</h2>
+            <p class="section__subtitle">A full school year of reps that culminate on stage.</p>
+          </div>
+          <div class="timeline" data-timeline>
+            <div class="timeline__item">
+              <span class="timeline__date">Fall 2025</span>
+              <p>Chapter onboarding, orientation week.</p>
+            </div>
+            <div class="timeline__item">
+              <span class="timeline__date">Oct–Dec 2025</span>
+              <p>Validation sprints, first pitch check.</p>
+            </div>
+            <div class="timeline__item">
+              <span class="timeline__date">Jan–Feb 2026</span>
+              <p>Build/MVP sprint, mentor office hours.</p>
+            </div>
+            <div class="timeline__item">
+              <span class="timeline__date">March 2026</span>
+              <p>Citywide qualifiers.</p>
+            </div>
+            <div class="timeline__item">
+              <span class="timeline__date">April 2026</span>
+              <p>Finals prep workshops.</p>
+            </div>
+            <div class="timeline__item">
+              <span class="timeline__date">May 2026</span>
+              <p>D Pitch Finals (live on stage).</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="outcomes">
+        <div class="section__inner grid gap-12 lg:grid-cols-[1.2fr_1fr]">
+          <div class="space-y-6">
+            <h2 class="section__title">Metrics you’ll track</h2>
+            <ul class="grid gap-3 text-sm text-ink/80 sm:grid-cols-2">
+              <li class="metric">Customer interviews completed</li>
+              <li class="metric">Letters of intent secured</li>
+              <li class="metric">Waitlist signups</li>
+              <li class="metric">Prototypes shipped</li>
+              <li class="metric">Revenue (if any)</li>
+              <li class="metric">Pitch reps logged</li>
+            </ul>
+          </div>
+          <figure class="quote">
+            <blockquote>“D Pitch made ‘startup’ real. We shipped, talked to customers, and learned more in 12 weeks than any class.”</blockquote>
+            <figcaption>— Future finalist</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section section--surface" id="progress">
+        <div class="section__inner">
+          <div class="section__header">
+            <h2 class="section__title">Progress tracker</h2>
+            <p class="section__subtitle">Log your team’s customer discovery and prototypes each week.</p>
+          </div>
+          <div class="progress" data-progress>
+            <form class="progress__form" id="progress-form">
+              <div>
+                <label for="interviews" class="progress__label">Customer interviews</label>
+                <input type="number" id="interviews" name="interviews" min="0" class="progress__input" required />
+              </div>
+              <div>
+                <label for="waitlist" class="progress__label">Waitlist signups</label>
+                <input type="number" id="waitlist" name="waitlist" min="0" class="progress__input" required />
+              </div>
+              <div>
+                <label for="prototypes" class="progress__label">Prototype links</label>
+                <input type="number" id="prototypes" name="prototypes" min="0" class="progress__input" required />
+              </div>
+              <button type="submit" class="cta-primary">Log progress</button>
+            </form>
+            <div class="progress__stats" id="progress-stats">
+              <div class="progress__stat">
+                <span class="progress__value" data-progress-value="interviews">0</span>
+                <span class="progress__label">Interviews</span>
+              </div>
+              <div class="progress__stat">
+                <span class="progress__value" data-progress-value="waitlist">0</span>
+                <span class="progress__label">Waitlist</span>
+              </div>
+              <div class="progress__stat">
+                <span class="progress__value" data-progress-value="prototypes">0</span>
+                <span class="progress__label">Prototypes</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="deck-builder">
+        <div class="section__inner grid gap-10 lg:grid-cols-2">
+          <div class="space-y-4">
+            <h2 class="section__title">Pitch deck builder</h2>
+            <p class="section__subtitle">A guided checklist that makes sure you cover the essentials before qualifiers.</p>
+          </div>
+          <div class="deck" data-deck>
+            <ul class="deck__list">
+              <li><label><input type="checkbox" data-deck-item /> Problem + insight</label></li>
+              <li><label><input type="checkbox" data-deck-item /> Solution demo</label></li>
+              <li><label><input type="checkbox" data-deck-item /> Customer validation</label></li>
+              <li><label><input type="checkbox" data-deck-item /> Business model</label></li>
+              <li><label><input type="checkbox" data-deck-item /> Go-to-market plan</label></li>
+              <li><label><input type="checkbox" data-deck-item /> Financials + unit economics</label></li>
+              <li><label><input type="checkbox" data-deck-item /> Team & ask</label></li>
+              <li><label><input type="checkbox" data-deck-item /> Q&A backup slides</label></li>
+            </ul>
+            <div class="deck__footer">
+              <span class="deck__status" data-deck-status>0 / 8 complete</span>
+              <button type="button" class="cta-secondary" data-deck-export>Copy checklist</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--surface" id="application-gate">
+        <div class="section__inner grid gap-10 lg:grid-cols-2">
+          <div class="space-y-4">
+            <h2 class="section__title">Eligibility quick check</h2>
+            <p class="section__subtitle">Three questions to confirm your next step.</p>
+          </div>
+          <form class="gate" id="eligibility-form">
+            <div class="gate__question">
+              <label for="grade">What grade will you be in Spring 2026?</label>
+              <select id="grade" name="grade" required class="gate__input">
+                <option value="">Select</option>
+                <option value="9-10">9th or 10th</option>
+                <option value="11-12">11th or 12th</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="gate__question">
+              <label>Do you live in DFW?</label>
+              <div class="gate__options">
+                <label><input type="radio" name="dfw" value="yes" required /> Yes</label>
+                <label><input type="radio" name="dfw" value="no" /> No</label>
+              </div>
+            </div>
+            <div class="gate__question">
+              <label>Do you have a chapter at your school?</label>
+              <div class="gate__options">
+                <label><input type="radio" name="chapter" value="yes" required /> Yes</label>
+                <label><input type="radio" name="chapter" value="no" /> No</label>
+              </div>
+            </div>
+            <button type="submit" class="cta-primary">See next step</button>
+            <p class="gate__result" id="eligibility-result" role="status"></p>
+          </form>
+        </div>
+      </section>
+
+      <section class="section cta-band">
+        <div class="section__inner flex flex-col gap-6 rounded-3xl bg-electric px-8 py-12 text-offwhite sm:flex-row sm:items-center sm:justify-between">
+          <div>
+            <h2 class="text-3xl font-semibold leading-tight">Ready to build?</h2>
+            <p class="text-offwhite/80">Applications are open now for the 2025–2026 cohort.</p>
+          </div>
+          <a href="apply.html" class="rounded-full bg-offwhite px-6 py-3 text-sm font-semibold text-jet transition-transform duration-200 hover:-translate-y-0.5">Apply now</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="mx-auto flex max-w-6xl flex-col gap-8 px-6 py-16 md:flex-row md:justify-between">
+        <div class="space-y-4">
+          <a href="index.html" class="text-lg font-semibold tracking-tight"><span class="text-electric">D</span> Pitch</a>
+          <p class="max-w-sm text-sm text-ink/70">Grow Dallas’ next generation of founders by making entrepreneurship hands-on, social, and achievable in high school.</p>
+        </div>
+        <div class="grid grid-cols-2 gap-6 text-sm text-ink/70 md:grid-cols-4">
+          <div class="space-y-2">
+            <h3 class="font-semibold text-ink">Program</h3>
+            <ul class="space-y-2">
+              <li><a href="chapters.html">Chapters</a></li>
+              <li><a href="competition.html">Competition</a></li>
+              <li><a href="speakers-mentors.html">Speakers & Mentors</a></li>
+              <li><a href="apply.html">Apply</a></li>
+            </ul>
+          </div>
+          <div class="space-y-2">
+            <h3 class="font-semibold text-ink">Company</h3>
+            <ul class="space-y-2">
+              <li><a href="about.html">About</a></li>
+              <li><a href="press-media.html">Press & Media</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="space-y-2">
+            <h3 class="font-semibold text-ink">Students</h3>
+            <ul class="space-y-2">
+              <li><a href="faq.html">FAQ</a></li>
+              <li><a href="apply.html#student">Student application</a></li>
+              <li><a href="apply.html#chapter-lead">Chapter lead application</a></li>
+            </ul>
+          </div>
+          <div class="space-y-2">
+            <h3 class="font-semibold text-ink">Contact</h3>
+            <ul class="space-y-2">
+              <li><a href="mailto:hello@dpitch.org">hello@dpitch.org</a></li>
+              <li><a href="mailto:chapters@dpitch.org">chapters@dpitch.org</a></li>
+              <li><a href="mailto:partners@dpitch.org">partners@dpitch.org</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="border-t border-ink/10 py-6 text-center text-xs text-ink/60">
+        © 2025 D Pitch. Independent student program not affiliated with D Magazine.
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js" type="module"></script>
+  </body>
+</html>
