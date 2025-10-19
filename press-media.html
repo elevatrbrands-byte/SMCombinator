@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>D Pitch Press & Media</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      window.tailwind = window.tailwind || {};
+      window.tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              ink: "#37383C",
+              offwhite: "#F7F8FA",
+              electric: "#4E95FF",
+              jet: "#0B0C10",
+              success: "#14B8A6"
+            },
+            boxShadow: {
+              glow: "0 20px 45px -20px rgba(78,149,255,0.6)",
+              soft: "0 25px 45px -30px rgba(7,15,24,0.2)"
+            }
+          }
+        }
+      };
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body class="bg-offwhite font-[Inter] text-jet">
+    <header class="site-header">
+      <nav class="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
+        <a href="index.html" class="text-lg font-semibold tracking-tight"><span class="text-electric">D</span> Pitch</a>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="mobile-menu">
+          <span class="sr-only">Toggle navigation</span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="hidden items-center gap-4 lg:flex">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="chapters.html">Chapters</a>
+          <a class="nav-link" href="competition.html">Competition</a>
+          <a class="nav-link" href="speakers-mentors.html">Speakers & Mentors</a>
+          <a class="nav-link" href="schools-partners.html">Schools & Partners</a>
+          <a class="nav-link" href="apply.html">Apply</a>
+          <a class="nav-link" href="faq.html">FAQ</a>
+          <a class="nav-link" href="about.html">About</a>
+          <a class="nav-link" href="press-media.html" aria-current="page">Press & Media</a>
+          <a class="nav-link" href="contact.html">Contact</a>
+          <a href="apply.html" class="rounded-full bg-electric px-4 py-2 text-sm font-semibold text-offwhite shadow-glow transition-transform duration-200 hover:-translate-y-0.5 hover:shadow-lg">Apply now</a>
+        </div>
+      </nav>
+      <div id="mobile-menu" class="mobile-menu">
+        <div class="flex flex-col gap-2">
+          <a class="mobile-nav-link" href="index.html">Home</a>
+          <a class="mobile-nav-link" href="chapters.html">Chapters</a>
+          <a class="mobile-nav-link" href="competition.html">Competition</a>
+          <a class="mobile-nav-link" href="speakers-mentors.html">Speakers & Mentors</a>
+          <a class="mobile-nav-link" href="schools-partners.html">Schools & Partners</a>
+          <a class="mobile-nav-link" href="apply.html">Apply</a>
+          <a class="mobile-nav-link" href="faq.html">FAQ</a>
+          <a class="mobile-nav-link" href="about.html">About</a>
+          <a class="mobile-nav-link" href="press-media.html" aria-current="page">Press & Media</a>
+          <a class="mobile-nav-link" href="contact.html">Contact</a>
+          <a href="apply.html" class="rounded-full bg-electric px-4 py-2 text-center text-sm font-semibold text-offwhite">Apply now</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="mx-auto flex max-w-6xl flex-col gap-8 px-6 pb-16 pt-24">
+          <div class="max-w-3xl space-y-5">
+            <p class="text-sm font-semibold uppercase tracking-[0.35em] text-electric/90">Press & Media</p>
+            <h1 class="text-5xl font-semibold leading-[0.95] tracking-tight text-jet sm:text-6xl">Resources for journalists and storytellers.</h1>
+            <p class="text-lg text-ink/80">Highlight D Pitch, the students building startups, and the Dallas innovation pipeline.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--surface">
+        <div class="section__inner grid gap-10 lg:grid-cols-[1.2fr_1fr]">
+          <div class="space-y-6">
+            <h2 class="section__title">Press kit</h2>
+            <p class="section__subtitle">Download logo files, color palette, founder bios, and sample photos.</p>
+            <div class="grid gap-4 md:grid-cols-2">
+              <a href="#" class="card block text-center text-sm font-semibold text-electric">Download logos</a>
+              <a href="#" class="card block text-center text-sm font-semibold text-electric">Color palette</a>
+              <a href="#" class="card block text-center text-sm font-semibold text-electric">Founder bios</a>
+              <a href="#" class="card block text-center text-sm font-semibold text-electric">Sample photos</a>
+            </div>
+          </div>
+          <div class="rounded-3xl bg-white/90 p-6 shadow-soft">
+            <h3 class="text-lg font-semibold">Media contact</h3>
+            <p class="mt-2 text-sm text-ink/75">press@dpitch.org</p>
+            <p class="mt-4 text-sm text-ink/70">We respond within one business day.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section__inner space-y-6">
+          <h2 class="section__title">Story angles</h2>
+          <ul class="space-y-3 text-sm text-ink/80">
+            <li class="metric">Youth entrepreneurship in Dallas.</li>
+            <li class="metric">High-school founders pitching real investors.</li>
+            <li class="metric">How sponsor-funded programs unlock access to innovation.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section section--surface">
+        <div class="section__inner space-y-6">
+          <h2 class="section__title">Latest updates</h2>
+          <div class="grid gap-4 md:grid-cols-2">
+            <article class="card space-y-2">
+              <h3 class="text-lg font-semibold">Chapter spotlight: Skyline High</h3>
+              <p class="text-sm text-ink/70">Students interviewed 40 parents to validate a childcare marketplace.</p>
+              <a href="#" class="inline-flex items-center gap-2 text-sm font-semibold text-electric">Read recap<span aria-hidden="true">→</span></a>
+            </article>
+            <article class="card space-y-2">
+              <h3 class="text-lg font-semibold">Speaker recap: Priya Sethi</h3>
+              <p class="text-sm text-ink/70">Hardware lessons for teen builders—BOM, pilots, and investor pitches.</p>
+              <a href="#" class="inline-flex items-center gap-2 text-sm font-semibold text-electric">Read recap<span aria-hidden="true">→</span></a>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="mx-auto flex max-w-6xl flex-col gap-8 px-6 py-16 md:flex-row md:justify-between">
+        <div class="space-y-4">
+          <a href="index.html" class="text-lg font-semibold tracking-tight"><span class="text-electric">D</span> Pitch</a>
+          <p class="max-w-sm text-sm text-ink/70">Grow Dallas’ next generation of founders by making entrepreneurship hands-on, social, and achievable in high school.</p>
+        </div>
+        <div class="grid grid-cols-2 gap-6 text-sm text-ink/70 md:grid-cols-4">
+          <div class="space-y-2">
+            <h3 class="font-semibold text-ink">Program</h3>
+            <ul class="space-y-2">
+              <li><a href="chapters.html">Chapters</a></li>
+              <li><a href="competition.html">Competition</a></li>
+              <li><a href="speakers-mentors.html">Speakers & Mentors</a></li>
+              <li><a href="apply.html">Apply</a></li>
+            </ul>
+          </div>
+          <div class="space-y-2">
+            <h3 class="font-semibold text-ink">Company</h3>
+            <ul class="space-y-2">
+              <li><a href="about.html">About</a></li>
+              <li><a href="press-media.html" aria-current="page">Press & Media</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="space-y-2">
+            <h3 class="font-semibold text-ink">Students</h3>
+            <ul class="space-y-2">
+              <li><a href="faq.html">FAQ</a></li>
+              <li><a href="apply.html#student">Student application</a></li>
+              <li><a href="apply.html#chapter-lead">Chapter lead application</a></li>
+            </ul>
+          </div>
+          <div class="space-y-2">
+            <h3 class="font-semibold text-ink">Contact</h3>
+            <ul class="space-y-2">
+              <li><a href="mailto:hello@dpitch.org">hello@dpitch.org</a></li>
+              <li><a href="mailto:chapters@dpitch.org">chapters@dpitch.org</a></li>
+              <li><a href="mailto:partners@dpitch.org">partners@dpitch.org</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="border-t border-ink/10 py-6 text-center text-xs text-ink/60">
+        © 2025 D Pitch. Independent student program not affiliated with D Magazine.
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js" type="module"></script>
+  </body>
+</html>
