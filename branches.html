@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Find or Create a Chapter — D Pitch DFW</title>
+    <meta
+      name="description"
+      content="Locate D Pitch chapters across Dallas–Fort Worth or launch one at your school with our guided starter kit."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="navbar__inner">
+        <a href="index.html" class="navbar__brand" aria-label="D Pitch home">
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect x="2" y="2" width="60" height="60" rx="18" fill="#0F1221" />
+            <path
+              d="M22 18h10.5c7.5 0 13.5 6 13.5 13.5S40 45 32.5 45H22V18Z"
+              stroke="url(#branchesStroke)"
+              stroke-width="5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              fill="none"
+            />
+            <defs>
+              <linearGradient id="branchesStroke" x1="22" y1="18" x2="48" y2="45" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#4E95FF" />
+                <stop offset="1" stop-color="#7C5CFF" />
+              </linearGradient>
+            </defs>
+          </svg>
+          <span>D Pitch</span>
+        </a>
+        <nav class="navbar__links">
+          <a href="about.html">About</a>
+          <a href="branches.html" aria-current="page">Branches</a>
+          <a href="index.html#speakers-title">Speakers</a>
+          <button class="navbar__cta" data-modal-target="createModal">Start a Chapter</button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section" id="top" aria-labelledby="branches-hero">
+        <div class="container">
+          <header style="margin-bottom: 2.5rem">
+            <div class="text-eyebrow">Chapters</div>
+            <h1 id="branches-hero">Find or create a D Pitch chapter</h1>
+            <p>Every chapter gets the starter kit, mentors, and curriculum. Choose your path below.</p>
+          </header>
+          <div class="split-hero">
+            <article class="split-card" id="find">
+              <div class="badge badge--green">Find a chapter</div>
+              <h2>Jump into a chapter near you</h2>
+              <p>Browse by city, school, and meeting time. Seats update in real-time.</p>
+              <button class="btn btn--secondary" data-scroll-to="#finder">Explore chapters</button>
+            </article>
+            <article class="split-card" id="create">
+              <div class="badge badge--purple">Create a chapter</div>
+              <h2>Bring D Pitch to your school</h2>
+              <p>Submit your info and we’ll send the Starter Kit within 24 hours.</p>
+              <button class="btn btn--primary" data-modal-target="createModal">Start the flow</button>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="finder" aria-labelledby="finder-title">
+        <div class="container">
+          <header style="max-width: 700px; margin-bottom: 2rem">
+            <h2 id="finder-title">Chapter finder</h2>
+            <p>Use filters to see which chapters have seats, who’s mentoring, and when they meet.</p>
+          </header>
+          <div class="finder">
+            <div class="finder__controls">
+              <label>
+                City
+                <select>
+                  <option>All</option>
+                  <option>Dallas</option>
+                  <option>Plano</option>
+                  <option>Fort Worth</option>
+                </select>
+              </label>
+              <label>
+                Meeting day
+                <select>
+                  <option>Any</option>
+                  <option>Tuesday</option>
+                  <option>Wednesday</option>
+                  <option>Thursday</option>
+                </select>
+              </label>
+              <label>
+                Capacity
+                <select>
+                  <option>All</option>
+                  <option>Open seats</option>
+                  <option>Waitlist</option>
+                </select>
+              </label>
+              <label>
+                Focus
+                <select>
+                  <option>All tracks</option>
+                  <option>Product</option>
+                  <option>Hardware</option>
+                  <option>Social Impact</option>
+                  <option>AI</option>
+                </select>
+              </label>
+            </div>
+            <div class="finder__map" role="presentation"></div>
+            <div class="finder__results">
+              <article class="finder__result-card">
+                <strong>St. Mark’s Chapter</strong>
+                <span>Meets Thu 4–6pm • Mentor rotation • 16 seats (3 left)</span>
+                <div style="display: flex; gap: 0.5rem; flex-wrap: wrap">
+                  <span class="badge badge--green">Open</span>
+                  <span class="badge badge--purple">Mentors weekly</span>
+                </div>
+                <button class="btn btn--secondary btn--small" data-modal-target="applyModal">Apply to Join</button>
+              </article>
+              <article class="finder__result-card">
+                <strong>Hockaday Chapter</strong>
+                <span>Meets Tue 5–7pm • Product focus • 14 seats (waitlist)</span>
+                <div style="display: flex; gap: 0.5rem; flex-wrap: wrap">
+                  <span class="badge badge--red">Waitlist</span>
+                  <span class="badge badge--purple">Product sprint</span>
+                </div>
+                <button class="btn btn--secondary btn--small" data-modal-target="applyModal">Join waitlist</button>
+              </article>
+              <article class="finder__result-card">
+                <strong>Parish Episcopal Chapter</strong>
+                <span>Meets Wed 4–6pm • Hardware corner • 12 seats (open)</span>
+                <div style="display: flex; gap: 0.5rem; flex-wrap: wrap">
+                  <span class="badge badge--green">Open</span>
+                  <span class="badge badge--purple">Hardware track</span>
+                </div>
+                <button class="btn btn--secondary btn--small" data-modal-target="applyModal">Apply to Join</button>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="create-flow-title">
+        <div class="container">
+          <header style="max-width: 680px; margin-bottom: 2rem">
+            <h2 id="create-flow-title">Create a Chapter</h2>
+            <p>We equip you with launch checklists, decks, permission packets, and mentor outreach tools.</p>
+          </header>
+          <div class="card-grid">
+            <article class="card">
+              <h3>1. School Details</h3>
+              <p>Share school name, address, meeting window, and estimated interest.</p>
+            </article>
+            <article class="card">
+              <h3>2. Chapter Leads</h3>
+              <p>List lead students, roles, and contact info. Faculty sponsors optional.</p>
+            </article>
+            <article class="card">
+              <h3>3. Support Needed</h3>
+              <p>Room access, A/V needs, mentor cadence, kickoff timing—we prep resources accordingly.</p>
+            </article>
+          </div>
+          <div class="success-state" style="margin-top: 2.5rem">
+            <div class="success-state__confetti" data-confetti></div>
+            <h3>Starter Kit arrives instantly</h3>
+            <p>You’ll get the launch checklist, curriculum PDF, permission packet, promo assets, and mentor/judge outreach templates.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--tight" aria-labelledby="faq-title">
+        <div class="container">
+          <h2 id="faq-title">Chapter FAQ</h2>
+          <div class="accordion">
+            <div class="accordion-item">
+              <button class="accordion-header">Do I need an idea to join?<span aria-hidden="true">+</span></button>
+              <div class="accordion-content"><p>No. We’ll help you find a real problem.</p></div>
+            </div>
+            <div class="accordion-item">
+              <button class="accordion-header">Is there a cost?<span aria-hidden="true">+</span></button>
+              <div class="accordion-content"><p>Chapters are free; finals tickets are sponsored.</p></div>
+            </div>
+            <div class="accordion-item">
+              <button class="accordion-header">Who can mentor?<span aria-hidden="true">+</span></button>
+              <div class="accordion-content"><p>Founders, operators, product leaders, VCs, domain experts.</p></div>
+            </div>
+            <div class="accordion-item">
+              <button class="accordion-header">What’s the time commitment?<span aria-hidden="true">+</span></button>
+              <div class="accordion-content"><p>~2 hrs/week + optional build sprints.</p></div>
+            </div>
+            <div class="accordion-item">
+              <button class="accordion-header">What happens after finals?<span aria-hidden="true">+</span></button>
+              <div class="accordion-content"><p>We connect finalists to mentors/investors; you retain IP.</p></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--tight" aria-labelledby="safety-title">
+        <div class="container">
+          <h2 id="safety-title">Safety &amp; Permissions</h2>
+          <p>We use guardian consent forms, photo/video release, and ensure on-site mentors complete background checks.</p>
+          <a class="btn btn--ghost" href="#">Download consent forms</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__inner">
+        <div class="footer__top">
+          <a href="index.html" class="navbar__brand" aria-label="D Pitch home">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect x="2" y="2" width="60" height="60" rx="18" fill="#4E95FF" />
+              <path
+                d="M22 18h10.5c7.5 0 13.5 6 13.5 13.5S40 45 32.5 45H22V18Z"
+                stroke="#0B1020"
+                stroke-width="5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                fill="none"
+              />
+            </svg>
+            <span>D Pitch</span>
+          </a>
+          <nav class="footer__nav" aria-label="Footer navigation">
+            <a href="about.html">About</a>
+            <a href="branches.html">Branches</a>
+            <a href="index.html#how-it-works">How it works</a>
+            <a href="index.html#speakers-title">Speakers</a>
+          </nav>
+          <div>
+            <p>Partner with us</p>
+            <a href="mailto:hello@dpitch.co">hello@dpitch.co</a>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <span class="footer__note">D Pitch is an independent student program. Not affiliated with D Magazine.</span>
+          <div style="display: flex; gap: 1rem; align-items: center">
+            <a href="https://instagram.com" aria-label="Instagram">Instagram</a>
+            <a href="https://linkedin.com" aria-label="LinkedIn">LinkedIn</a>
+            <a href="https://x.com" aria-label="X">X</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="modal" id="applyModal" role="dialog" aria-modal="true" aria-labelledby="applyTitle">
+      <div class="modal__content">
+        <div class="modal__header">
+          <h3 id="applyTitle">Apply to join a chapter</h3>
+          <button data-close-modal aria-label="Close apply form">✕</button>
+        </div>
+        <form class="modal__form">
+          <label for="student-name">Name</label>
+          <input id="student-name" name="student-name" required />
+          <label for="student-school">School</label>
+          <input id="student-school" name="student-school" required />
+          <label for="student-grade">Grade</label>
+          <select id="student-grade" name="student-grade">
+            <option>9th</option>
+            <option>10th</option>
+            <option>11th</option>
+            <option>12th</option>
+          </select>
+          <label for="student-email">Email</label>
+          <input id="student-email" name="student-email" type="email" required />
+          <label for="why-dpitch">Why D Pitch? (max 280 chars)</label>
+          <textarea id="why-dpitch" name="why-dpitch" maxlength="280"></textarea>
+          <label for="team-idea">Have a team/idea?</label>
+          <select id="team-idea" name="team-idea">
+            <option value="no">Not yet</option>
+            <option value="yes">Yep — ready to build</option>
+          </select>
+          <label for="parent-email">Parent/Guardian email</label>
+          <input id="parent-email" name="parent-email" type="email" required />
+          <button type="submit" class="btn btn--primary">Submit application</button>
+          <p class="form-note">We’ll send next steps + permission packet in under 48 hours.</p>
+        </form>
+      </div>
+    </div>
+
+    <div class="modal" id="createModal" role="dialog" aria-modal="true" aria-labelledby="createTitle">
+      <div class="modal__content">
+        <div class="modal__header">
+          <h3 id="createTitle">Create a Chapter</h3>
+          <button data-close-modal aria-label="Close create form">✕</button>
+        </div>
+        <form class="modal__form">
+          <label for="school-name">School name</label>
+          <input id="school-name" name="school-name" required />
+          <label for="school-address">School address</label>
+          <input id="school-address" name="school-address" required />
+          <label for="meeting-window">Proposed meeting window</label>
+          <input id="meeting-window" name="meeting-window" placeholder="e.g., Thursdays 4–6pm" />
+          <label for="interest">Expected interest (estimate)</label>
+          <input id="interest" name="interest" type="number" min="5" />
+          <label for="faculty-sponsor">Faculty sponsor (if known)</label>
+          <input id="faculty-sponsor" name="faculty-sponsor" />
+          <label for="lead-students">Lead student name(s)</label>
+          <textarea id="lead-students" name="lead-students" placeholder="List names + roles"></textarea>
+          <label for="support-needs">Support needed</label>
+          <textarea id="support-needs" name="support-needs" placeholder="Room access, A/V, mentor cadence"></textarea>
+          <label for="kickoff-date">Ideal kickoff date</label>
+          <input id="kickoff-date" name="kickoff-date" type="date" />
+          <button type="submit" class="btn btn--primary">Request Starter Kit</button>
+          <p class="form-note">You’ll get the Starter Kit instantly plus a calendar link for onboarding.</p>
+        </form>
+      </div>
+    </div>
+
+    <script src="assets/js/main.js" defer></script>
+  </body>
+</html>
