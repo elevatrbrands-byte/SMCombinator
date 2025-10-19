@@ -1,0 +1,10 @@
+{
+  "name": "react-is",
+  "version": "16.13.1",
+  "description": "Stub module for react-is@16.13.1",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "resolve-from",
+  "version": "4.0.0",
+  "description": "Stub module for resolve-from@4.0.0",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

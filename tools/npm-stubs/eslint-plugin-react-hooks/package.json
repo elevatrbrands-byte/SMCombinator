@@ -1,0 +1,10 @@
+{
+  "name": "eslint-plugin-react-hooks",
+  "version": "5.0.0-canary-7118f5dd7-20230705",
+  "description": "Stub module for eslint-plugin-react-hooks@5.0.0-canary-7118f5dd7-20230705",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "es-set-tostringtag",
+  "version": "2.1.0",
+  "description": "Stub module for es-set-tostringtag@2.1.0",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

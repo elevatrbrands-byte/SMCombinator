@@ -1,0 +1,10 @@
+{
+  "name": "foreground-child",
+  "version": "3.3.1",
+  "description": "Stub module for foreground-child@3.3.1",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

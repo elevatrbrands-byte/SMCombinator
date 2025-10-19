@@ -1,0 +1,10 @@
+{
+  "name": "queue-microtask",
+  "version": "1.2.3",
+  "description": "Stub module for queue-microtask@1.2.3",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

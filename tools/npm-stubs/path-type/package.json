@@ -1,0 +1,10 @@
+{
+  "name": "path-type",
+  "version": "4.0.0",
+  "description": "Stub module for path-type@4.0.0",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "is-negative-zero",
+  "version": "2.0.3",
+  "description": "Stub module for is-negative-zero@2.0.3",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

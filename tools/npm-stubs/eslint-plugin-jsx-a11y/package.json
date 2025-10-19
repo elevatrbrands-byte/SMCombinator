@@ -1,0 +1,10 @@
+{
+  "name": "eslint-plugin-jsx-a11y",
+  "version": "6.10.2",
+  "description": "Stub module for eslint-plugin-jsx-a11y@6.10.2",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

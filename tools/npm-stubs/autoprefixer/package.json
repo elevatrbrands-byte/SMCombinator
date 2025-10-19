@@ -1,0 +1,10 @@
+{
+  "name": "autoprefixer",
+  "version": "10.4.16",
+  "description": "Stub module for autoprefixer@10.4.16",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

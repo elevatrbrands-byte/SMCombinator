@@ -1,0 +1,10 @@
+{
+  "name": "react-dom",
+  "version": "18.2.0",
+  "description": "Stub module for react-dom@18.2.0",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

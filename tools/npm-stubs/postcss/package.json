@@ -1,0 +1,10 @@
+{
+  "name": "postcss",
+  "version": "8.4.31",
+  "description": "Stub module for postcss@8.4.31",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

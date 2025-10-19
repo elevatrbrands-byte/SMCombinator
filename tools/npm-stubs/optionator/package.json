@@ -1,0 +1,10 @@
+{
+  "name": "optionator",
+  "version": "0.9.4",
+  "description": "Stub module for optionator@0.9.4",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

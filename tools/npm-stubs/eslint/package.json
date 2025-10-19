@@ -1,0 +1,10 @@
+{
+  "name": "eslint",
+  "version": "8.55.0",
+  "description": "Stub module for eslint@8.55.0",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "emoji-regex",
+  "version": "8.0.0",
+  "description": "Stub module for emoji-regex@8.0.0",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

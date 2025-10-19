@@ -1,0 +1,10 @@
+{
+  "name": "lru-cache",
+  "version": "10.4.3",
+  "description": "Stub module for lru-cache@10.4.3",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "ajv",
+  "version": "6.12.6",
+  "description": "Stub module for ajv@6.12.6",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

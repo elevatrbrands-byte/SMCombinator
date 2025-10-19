@@ -1,0 +1,10 @@
+{
+  "name": "source-map-js",
+  "version": "1.2.1",
+  "description": "Stub module for source-map-js@1.2.1",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "es-to-primitive",
+  "version": "1.3.0",
+  "description": "Stub module for es-to-primitive@1.3.0",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

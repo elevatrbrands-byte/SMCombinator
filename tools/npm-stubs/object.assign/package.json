@@ -1,0 +1,10 @@
+{
+  "name": "object.assign",
+  "version": "4.1.7",
+  "description": "Stub module for object.assign@4.1.7",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}
