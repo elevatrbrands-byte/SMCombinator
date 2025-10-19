@@ -1,0 +1,10 @@
+{
+  "name": "browserslist",
+  "version": "4.26.3",
+  "description": "Stub module for browserslist@4.26.3",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "tsconfig-paths",
+  "version": "3.15.0",
+  "description": "Stub module for tsconfig-paths@3.15.0",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "picomatch",
+  "version": "2.3.1",
+  "description": "Stub module for picomatch@2.3.1",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

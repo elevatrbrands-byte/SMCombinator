@@ -1,0 +1,10 @@
+{
+  "name": "es-iterator-helpers",
+  "version": "1.2.1",
+  "description": "Stub module for es-iterator-helpers@1.2.1",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

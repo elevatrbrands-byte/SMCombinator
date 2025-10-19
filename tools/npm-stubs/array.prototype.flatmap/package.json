@@ -1,0 +1,10 @@
+{
+  "name": "array.prototype.flatmap",
+  "version": "1.3.3",
+  "description": "Stub module for array.prototype.flatmap@1.3.3",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

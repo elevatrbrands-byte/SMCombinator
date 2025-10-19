@@ -1,0 +1,10 @@
+{
+  "name": "dir-glob",
+  "version": "3.0.1",
+  "description": "Stub module for dir-glob@3.0.1",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "jsx-ast-utils",
+  "version": "3.3.5",
+  "description": "Stub module for jsx-ast-utils@3.3.5",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

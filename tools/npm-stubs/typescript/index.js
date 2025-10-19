@@ -1,0 +1,2 @@
+export default {};
+export const version = '5.3.3';

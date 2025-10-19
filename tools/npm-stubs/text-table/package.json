@@ -1,0 +1,10 @@
+{
+  "name": "text-table",
+  "version": "0.2.0",
+  "description": "Stub module for text-table@0.2.0",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

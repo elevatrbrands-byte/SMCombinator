@@ -1,0 +1,10 @@
+{
+  "name": "argparse",
+  "version": "2.0.1",
+  "description": "Stub module for argparse@2.0.1",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

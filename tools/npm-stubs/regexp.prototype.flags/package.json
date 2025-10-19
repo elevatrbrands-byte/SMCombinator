@@ -1,0 +1,10 @@
+{
+  "name": "regexp.prototype.flags",
+  "version": "1.5.4",
+  "description": "Stub module for regexp.prototype.flags@1.5.4",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

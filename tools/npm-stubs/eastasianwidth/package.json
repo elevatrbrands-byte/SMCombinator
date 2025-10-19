@@ -1,0 +1,10 @@
+{
+  "name": "eastasianwidth",
+  "version": "0.2.0",
+  "description": "Stub module for eastasianwidth@0.2.0",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

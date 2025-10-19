@@ -1,0 +1,10 @@
+{
+  "name": "normalize-range",
+  "version": "0.1.2",
+  "description": "Stub module for normalize-range@0.1.2",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

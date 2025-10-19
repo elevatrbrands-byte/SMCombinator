@@ -1,0 +1,10 @@
+{
+  "name": "strip-ansi",
+  "version": "7.1.2",
+  "description": "Stub module for strip-ansi@7.1.2",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

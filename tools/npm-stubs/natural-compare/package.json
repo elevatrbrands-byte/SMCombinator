@@ -1,0 +1,10 @@
+{
+  "name": "natural-compare",
+  "version": "1.4.0",
+  "description": "Stub module for natural-compare@1.4.0",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

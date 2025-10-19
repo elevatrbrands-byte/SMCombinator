@@ -1,0 +1,10 @@
+{
+  "name": "signal-exit",
+  "version": "4.1.0",
+  "description": "Stub module for signal-exit@4.1.0",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

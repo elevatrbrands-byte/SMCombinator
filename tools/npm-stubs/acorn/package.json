@@ -1,0 +1,10 @@
+{
+  "name": "acorn",
+  "version": "8.15.0",
+  "description": "Stub module for acorn@8.15.0",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

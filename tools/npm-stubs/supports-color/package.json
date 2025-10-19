@@ -1,0 +1,10 @@
+{
+  "name": "supports-color",
+  "version": "7.2.0",
+  "description": "Stub module for supports-color@7.2.0",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}
