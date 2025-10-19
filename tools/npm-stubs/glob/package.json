@@ -1,0 +1,10 @@
+{
+  "name": "glob",
+  "version": "7.2.3",
+  "description": "Stub module for glob@7.2.3",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "ansi-styles",
+  "version": "4.3.0",
+  "description": "Stub module for ansi-styles@4.3.0",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

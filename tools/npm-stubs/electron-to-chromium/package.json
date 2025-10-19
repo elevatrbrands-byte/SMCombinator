@@ -1,0 +1,10 @@
+{
+  "name": "electron-to-chromium",
+  "version": "1.5.237",
+  "description": "Stub module for electron-to-chromium@1.5.237",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

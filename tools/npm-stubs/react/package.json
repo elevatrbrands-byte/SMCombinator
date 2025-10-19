@@ -1,0 +1,10 @@
+{
+  "name": "react",
+  "version": "18.2.0",
+  "description": "Stub module for react@18.2.0",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

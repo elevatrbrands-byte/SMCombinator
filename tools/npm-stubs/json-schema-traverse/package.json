@@ -1,0 +1,10 @@
+{
+  "name": "json-schema-traverse",
+  "version": "0.4.1",
+  "description": "Stub module for json-schema-traverse@0.4.1",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

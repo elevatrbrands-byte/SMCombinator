@@ -1,0 +1,10 @@
+{
+  "name": "globals",
+  "version": "13.24.0",
+  "description": "Stub module for globals@13.24.0",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

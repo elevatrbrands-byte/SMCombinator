@@ -1,0 +1,10 @@
+{
+  "name": "esquery",
+  "version": "1.6.0",
+  "description": "Stub module for esquery@1.6.0",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

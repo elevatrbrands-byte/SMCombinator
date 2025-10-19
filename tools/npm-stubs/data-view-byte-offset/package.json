@@ -1,0 +1,10 @@
+{
+  "name": "data-view-byte-offset",
+  "version": "1.0.1",
+  "description": "Stub module for data-view-byte-offset@1.0.1",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

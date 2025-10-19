@@ -1,0 +1,10 @@
+{
+  "name": "nanoid",
+  "version": "3.3.11",
+  "description": "Stub module for nanoid@3.3.11",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

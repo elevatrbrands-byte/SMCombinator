@@ -1,0 +1,10 @@
+{
+  "name": "minipass",
+  "version": "7.1.2",
+  "description": "Stub module for minipass@7.1.2",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

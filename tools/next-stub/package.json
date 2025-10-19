@@ -1,0 +1,9 @@
+{
+  "name": "next",
+  "version": "0.0.0-stub",
+  "description": "Stub Next CLI that proxies to the static build script",
+  "type": "module",
+  "bin": {
+    "next": "./bin/next.js"
+  }
+}

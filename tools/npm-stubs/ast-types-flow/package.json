@@ -1,0 +1,10 @@
+{
+  "name": "ast-types-flow",
+  "version": "0.0.8",
+  "description": "Stub module for ast-types-flow@0.0.8",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

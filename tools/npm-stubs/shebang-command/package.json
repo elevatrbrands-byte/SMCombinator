@@ -1,0 +1,10 @@
+{
+  "name": "shebang-command",
+  "version": "2.0.0",
+  "description": "Stub module for shebang-command@2.0.0",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

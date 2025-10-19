@@ -1,0 +1,10 @@
+{
+  "name": "imurmurhash",
+  "version": "0.1.4",
+  "description": "Stub module for imurmurhash@0.1.4",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

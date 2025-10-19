@@ -1,0 +1,10 @@
+{
+  "name": "wrap-ansi-cjs",
+  "version": "7.0.0",
+  "description": "Stub module for wrap-ansi-cjs@7.0.0",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

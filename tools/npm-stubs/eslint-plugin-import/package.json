@@ -1,0 +1,10 @@
+{
+  "name": "eslint-plugin-import",
+  "version": "2.32.0",
+  "description": "Stub module for eslint-plugin-import@2.32.0",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

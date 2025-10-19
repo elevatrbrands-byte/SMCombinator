@@ -1,0 +1,10 @@
+{
+  "name": "rimraf",
+  "version": "3.0.2",
+  "description": "Stub module for rimraf@3.0.2",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}
