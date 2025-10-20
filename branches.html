@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/css/styles.css" />
@@ -20,9 +20,22 @@
     <header class="navbar">
       <div class="navbar__inner">
         <a href="index.html" class="navbar__brand" aria-label="D Pitch home">
-          <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <rect x="2" y="2" width="60" height="60" rx="6" fill="#C8102E" />
-            <path d="M22 18h13c7.2 0 13 5.8 13 13s-5.8 13-13 13H22V18Z" fill="#ffffff" />
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect x="2" y="2" width="60" height="60" rx="18" fill="#0F1221" />
+            <path
+              d="M22 18h10.5c7.5 0 13.5 6 13.5 13.5S40 45 32.5 45H22V18Z"
+              stroke="url(#branchesStroke)"
+              stroke-width="5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              fill="none"
+            />
+            <defs>
+              <linearGradient id="branchesStroke" x1="22" y1="18" x2="48" y2="45" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#4E95FF" />
+                <stop offset="1" stop-color="#7C5CFF" />
+              </linearGradient>
+            </defs>
           </svg>
           <span>D Pitch</span>
         </a>
@@ -208,9 +221,16 @@
       <div class="footer__inner">
         <div class="footer__top">
           <a href="index.html" class="navbar__brand" aria-label="D Pitch home">
-            <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-              <rect x="2" y="2" width="60" height="60" rx="6" fill="#C8102E" />
-              <path d="M22 18h13c7.2 0 13 5.8 13 13s-5.8 13-13 13H22V18Z" fill="#ffffff" />
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect x="2" y="2" width="60" height="60" rx="18" fill="#4E95FF" />
+              <path
+                d="M22 18h10.5c7.5 0 13.5 6 13.5 13.5S40 45 32.5 45H22V18Z"
+                stroke="#0B1020"
+                stroke-width="5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                fill="none"
+              />
             </svg>
             <span>D Pitch</span>
           </a>

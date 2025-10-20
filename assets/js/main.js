@@ -113,7 +113,7 @@ docReady(() => {
 
   const confettiContainers = document.querySelectorAll('[data-confetti]');
   confettiContainers.forEach((container) => {
-    const colors = ['#C8102E', '#111111', '#D4C4B5', '#156064'];
+    const colors = ['#4E95FF', '#7C5CFF', '#0DB14B', '#E34850'];
     for (let i = 0; i < 12; i++) {
       const piece = document.createElement('span');
       const delay = Math.random() * 1.2;
