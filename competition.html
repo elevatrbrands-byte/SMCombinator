@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>D Pitch Competition — Spring 2026 Finals</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      window.tailwind = window.tailwind || {};
+      window.tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              ink: "#37383C",
+              offwhite: "#F7F8FA",
+              electric: "#4E95FF",
+              jet: "#0B0C10",
+              success: "#14B8A6"
+            },
+            boxShadow: {
+              glow: "0 20px 45px -20px rgba(78,149,255,0.6)",
+              soft: "0 25px 45px -30px rgba(7,15,24,0.2)"
+            }
+          }
+        }
+      };
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body class="bg-offwhite font-[Inter] text-jet">
+    <header class="site-header">
+      <nav class="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
+        <a href="index.html" class="text-lg font-semibold tracking-tight"><span class="text-electric">D</span> Pitch</a>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="mobile-menu">
+          <span class="sr-only">Toggle navigation</span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="hidden items-center gap-4 lg:flex">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="chapters.html">Chapters</a>
+          <a class="nav-link" href="competition.html" aria-current="page">Competition</a>
+          <a class="nav-link" href="speakers-mentors.html">Speakers & Mentors</a>
+          <a class="nav-link" href="schools-partners.html">Schools & Partners</a>
+          <a class="nav-link" href="apply.html">Apply</a>
+          <a class="nav-link" href="faq.html">FAQ</a>
+          <a class="nav-link" href="about.html">About</a>
+          <a class="nav-link" href="press-media.html">Press & Media</a>
+          <a class="nav-link" href="contact.html">Contact</a>
+          <a href="apply.html" class="rounded-full bg-electric px-4 py-2 text-sm font-semibold text-offwhite shadow-glow transition-transform duration-200 hover:-translate-y-0.5 hover:shadow-lg">Apply now</a>
+        </div>
+      </nav>
+      <div id="mobile-menu" class="mobile-menu">
+        <div class="flex flex-col gap-2">
+          <a class="mobile-nav-link" href="index.html">Home</a>
+          <a class="mobile-nav-link" href="chapters.html">Chapters</a>
+          <a class="mobile-nav-link" href="competition.html" aria-current="page">Competition</a>
+          <a class="mobile-nav-link" href="speakers-mentors.html">Speakers & Mentors</a>
+          <a class="mobile-nav-link" href="schools-partners.html">Schools & Partners</a>
+          <a class="mobile-nav-link" href="apply.html">Apply</a>
+          <a class="mobile-nav-link" href="faq.html">FAQ</a>
+          <a class="mobile-nav-link" href="about.html">About</a>
+          <a class="mobile-nav-link" href="press-media.html">Press & Media</a>
+          <a class="mobile-nav-link" href="contact.html">Contact</a>
+          <a href="apply.html" class="rounded-full bg-electric px-4 py-2 text-center text-sm font-semibold text-offwhite">Apply now</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="mx-auto flex max-w-6xl flex-col gap-8 px-6 pb-20 pt-24">
+          <div class="max-w-3xl space-y-5">
+            <p class="text-sm font-semibold uppercase tracking-[0.35em] text-electric/90">Competition</p>
+            <h1 class="text-5xl font-semibold leading-[0.95] tracking-tight text-jet sm:text-6xl">The D Pitch Finals — Spring 2026</h1>
+            <p class="text-lg text-ink/80">Dallas’ stage for high-school founders. 2–5 person teams. Four tracks. Real judges. Real feedback.</p>
+          </div>
+          <div class="grid gap-6 rounded-3xl bg-white/85 p-8 shadow-soft sm:grid-cols-3">
+            <div>
+              <h2 class="text-sm font-semibold uppercase tracking-[0.2em] text-ink/60">Eligibility</h2>
+              <p class="mt-3 text-sm text-ink/75">DFW-area high school students (grades 9–12) forming teams of 2–5.</p>
+            </div>
+            <div>
+              <h2 class="text-sm font-semibold uppercase tracking-[0.2em] text-ink/60">Tracks</h2>
+              <p class="mt-3 text-sm text-ink/75">Consumer, B2B/SaaS, Deep Tech/Hardware, Social Impact.</p>
+            </div>
+            <div>
+              <h2 class="text-sm font-semibold uppercase tracking-[0.2em] text-ink/60">Advancement</h2>
+              <p class="mt-3 text-sm text-ink/75">Chapter showcases → city qualifiers (March) → finals (May).</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--surface">
+        <div class="section__inner grid gap-10 lg:grid-cols-[1.1fr_1fr]">
+          <div class="space-y-6">
+            <h2 class="section__title">Judging rubric</h2>
+            <p class="section__subtitle">Five categories to show you’ve built something real.</p>
+          </div>
+          <div class="grid gap-3 text-sm text-ink/80">
+            <div class="rounded-3xl bg-white p-4 shadow-soft">
+              <div class="flex items-center justify-between text-sm font-semibold uppercase tracking-[0.2em] text-ink/60">
+                <span>Problem clarity & insight</span><span>25%</span>
+              </div>
+              <p class="mt-3 text-sm">Do you understand the problem deeply and prove you’ve spoken to your users?</p>
+            </div>
+            <div class="rounded-3xl bg-white p-4 shadow-soft">
+              <div class="flex items-center justify-between text-sm font-semibold uppercase tracking-[0.2em] text-ink/60">
+                <span>Validation & traction</span><span>25%</span>
+              </div>
+              <p class="mt-3 text-sm">Interviews, pilots, LOIs, waitlists, or revenue that de-risk the idea.</p>
+            </div>
+            <div class="rounded-3xl bg-white p-4 shadow-soft">
+              <div class="flex items-center justify-between text-sm font-semibold uppercase tracking-[0.2em] text-ink/60">
+                <span>Solution quality</span><span>20%</span>
+              </div>
+              <p class="mt-3 text-sm">Prototype strength, technical feasibility, and how well the solution solves the problem.</p>
+            </div>
+            <div class="rounded-3xl bg-white p-4 shadow-soft">
+              <div class="flex items-center justify-between text-sm font-semibold uppercase tracking-[0.2em] text-ink/60">
+                <span>Business model & GTM</span><span>15%</span>
+              </div>
+              <p class="mt-3 text-sm">Unit economics, pricing logic, channels, and how you’ll reach early adopters.</p>
+            </div>
+            <div class="rounded-3xl bg-white p-4 shadow-soft">
+              <div class="flex items-center justify-between text-sm font-semibold uppercase tracking-[0.2em] text-ink/60">
+                <span>Story & Q&A</span><span>15%</span>
+              </div>
+              <p class="mt-3 text-sm">Narrative, visuals, live demo, and how confidently you handle questions.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section__inner grid gap-10 lg:grid-cols-2">
+          <div class="space-y-6">
+            <h2 class="section__title">Prizes & support</h2>
+            <ul class="space-y-3 text-sm text-ink/80">
+              <li class="metric">Seed grants for top teams</li>
+              <li class="metric">Mentorship sprint with operators and investors</li>
+              <li class="metric">Workspace credits / product tools</li>
+              <li class="metric">Press features via local media partners</li>
+            </ul>
+          </div>
+          <div class="rounded-3xl bg-white/90 p-6 shadow-soft">
+            <h3 class="text-lg font-semibold">Venue & agenda</h3>
+            <ul class="mt-4 space-y-3 text-sm text-ink/75">
+              <li><strong>Venue:</strong> TBA (central, transit-accessible).</li>
+              <li><strong>Agenda:</strong> Expo hall → Top 10 pitches → Judges’ deliberation → Awards.</li>
+              <li><strong>Finals date:</strong> May 2026.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--surface">
+        <div class="section__inner">
+          <div class="section__header">
+            <h2 class="section__title">Competition FAQ</h2>
+            <p class="section__subtitle">Quick answers on IP, hardware, and stage logistics.</p>
+          </div>
+          <div class="space-y-4" data-accordion>
+            <div class="rounded-3xl border border-ink/10 bg-white/90 shadow-soft">
+              <button class="flex w-full items-center justify-between px-6 py-5 text-left text-sm font-semibold" data-accordion-toggle aria-expanded="true" aria-controls="faq-ip">
+                Who owns our IP?
+                <span class="ml-4 text-electric" data-accordion-icon>–</span>
+              </button>
+              <div id="faq-ip" class="border-t border-ink/10 px-6 py-5 text-sm text-ink/75">
+                Teams keep 100% ownership. Bring your own contributor agreements if needed.
+              </div>
+            </div>
+            <div class="rounded-3xl border border-ink/10 bg-white/90 shadow-soft">
+              <button class="flex w-full items-center justify-between px-6 py-5 text-left text-sm font-semibold" data-accordion-toggle aria-expanded="false" aria-controls="faq-size">
+                How big can teams be?
+                <span class="ml-4 text-electric" data-accordion-icon>+</span>
+              </button>
+              <div id="faq-size" hidden class="border-t border-ink/10 px-6 py-5 text-sm text-ink/75">
+                Teams must have 2–5 students. Solo builders should join a chapter to match with collaborators.
+              </div>
+            </div>
+            <div class="rounded-3xl border border-ink/10 bg-white/90 shadow-soft">
+              <button class="flex w-full items-center justify-between px-6 py-5 text-left text-sm font-semibold" data-accordion-toggle aria-expanded="false" aria-controls="faq-stage">
+                Hardware or physical products?
+                <span class="ml-4 text-electric" data-accordion-icon>+</span>
+              </button>
+              <div id="faq-stage" hidden class="border-t border-ink/10 px-6 py-5 text-sm text-ink/75">
+                Approved with safety check. Bring backup video of your demo in case equipment needs a reset.
+              </div>
+            </div>
+            <div class="rounded-3xl border border-ink/10 bg-white/90 shadow-soft">
+              <button class="flex w-full items-center justify-between px-6 py-5 text-left text-sm font-semibold" data-accordion-toggle aria-expanded="false" aria-controls="faq-code">
+                Code of conduct?
+                <span class="ml-4 text-electric" data-accordion-icon>+</span>
+              </button>
+              <div id="faq-code" hidden class="border-t border-ink/10 px-6 py-5 text-sm text-ink/75">
+                All teams sign our conduct pledge—professionalism, inclusivity, and safety first.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="mx-auto flex max-w-6xl flex-col gap-8 px-6 py-16 md:flex-row md:justify-between">
+        <div class="space-y-4">
+          <a href="index.html" class="text-lg font-semibold tracking-tight"><span class="text-electric">D</span> Pitch</a>
+          <p class="max-w-sm text-sm text-ink/70">Grow Dallas’ next generation of founders by making entrepreneurship hands-on, social, and achievable in high school.</p>
+        </div>
+        <div class="grid grid-cols-2 gap-6 text-sm text-ink/70 md:grid-cols-4">
+          <div class="space-y-2">
+            <h3 class="font-semibold text-ink">Program</h3>
+            <ul class="space-y-2">
+              <li><a href="chapters.html">Chapters</a></li>
+              <li><a href="competition.html" aria-current="page">Competition</a></li>
+              <li><a href="speakers-mentors.html">Speakers & Mentors</a></li>
+              <li><a href="apply.html">Apply</a></li>
+            </ul>
+          </div>
+          <div class="space-y-2">
+            <h3 class="font-semibold text-ink">Company</h3>
+            <ul class="space-y-2">
+              <li><a href="about.html">About</a></li>
+              <li><a href="press-media.html">Press & Media</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="space-y-2">
+            <h3 class="font-semibold text-ink">Students</h3>
+            <ul class="space-y-2">
+              <li><a href="faq.html">FAQ</a></li>
+              <li><a href="apply.html#student">Student application</a></li>
+              <li><a href="apply.html#chapter-lead">Chapter lead application</a></li>
+            </ul>
+          </div>
+          <div class="space-y-2">
+            <h3 class="font-semibold text-ink">Contact</h3>
+            <ul class="space-y-2">
+              <li><a href="mailto:hello@dpitch.org">hello@dpitch.org</a></li>
+              <li><a href="mailto:chapters@dpitch.org">chapters@dpitch.org</a></li>
+              <li><a href="mailto:partners@dpitch.org">partners@dpitch.org</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="border-t border-ink/10 py-6 text-center text-xs text-ink/60">
+        © 2025 D Pitch. Independent student program not affiliated with D Magazine.
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js" type="module"></script>
+  </body>
+</html>
